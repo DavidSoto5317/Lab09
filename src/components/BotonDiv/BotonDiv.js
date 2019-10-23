@@ -11,12 +11,13 @@ class BotonDiv extends PureComponent {
   render() {
     const { estilo } = this.props
     const { texto } = this.props
+    const { dis } = this.props
     let id = texto
     if (texto === '=') {
       id = 'e'
     }
     return (
-      <button id={`button${id}`} type='button' className={estilo} onClick={this.presionarBoton.bind(this)} disabled>
+      <button id={`button${id}`} type='button' className={estilo} onClick={this.presionarBoton.bind(this)} disabled={dis}>
         {texto}
       </button>
     )

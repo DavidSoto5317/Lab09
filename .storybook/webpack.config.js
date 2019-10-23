@@ -13,6 +13,18 @@ module.exports = {
   module: {
     rules: [
       // add your custom rules.
+      {
+        test: /\.css$/,
+        loader:'style-loader!css-loader'
+      },
+      {
+        test: /\.(png|jpg|gif|otf|ttf|woff2)$/,
+        use: [
+          {
+            loader: 'url-loader',
+          }
+        ]
+      },
     ],
   },
 };
