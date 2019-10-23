@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react'
-import '../css/Estilos.css'
-import Display from './Display'
-import Boton from './Boton'
-import BotonDiv from './BotonDiv'
+import '../../css/Estilos.css'
+import Display from '../Display/Display'
+import Boton from '../Boton/Boton'
+import BotonDiv from '../BotonDiv/BotonDiv'
 
 class Calculator extends PureComponent {
   constructor(props) {

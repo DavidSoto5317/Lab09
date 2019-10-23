@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import '../css/Estilos.css'
+import '../../css/Estilos.css'
 
 class BotonDiv extends PureComponent {
   presionarBoton() {

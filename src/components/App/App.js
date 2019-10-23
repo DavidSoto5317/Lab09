@@ -1,7 +1,7 @@
 import React from 'react'
-import '../css/Estilos.css'
+import '../../css/Estilos.css'
 
-import Calculadora from './Calculator'
+import Calculadora from '../Calculator/Calculator'
 
 const App = () => (
   <div>

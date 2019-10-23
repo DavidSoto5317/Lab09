@@ -1,6 +1,6 @@
 import React from 'react'
 import { mount, shallow } from 'enzyme'
-import App from './components/App'
+import App from './components/App/App'
 
 describe('Test para el componente principal de la calculadora', () => {
   it('renderiza la calculadora sin tronar', () => {
